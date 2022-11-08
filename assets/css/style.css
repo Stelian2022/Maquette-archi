@@ -23,7 +23,6 @@ nav {
 }
 body {
   padding: 0%;
-
 }
 #logo {
   padding-left: 0.5rem;
@@ -67,7 +66,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
 }
 .imgFrame {
   border: 1px white;
@@ -75,36 +73,32 @@ main {
   overflow: hidden;
   margin-bottom: 1%;
   position: relative;
-  
 }
 
 /* Effect zoom images */
 .imgFrame img {
   width: 100%;
   transition-property: all;
-  transition-duration: 0.3s; 
+  transition-duration: 0.3s;
   vertical-align: bottom;
   position: relative;
   z-index: 1;
 }
 
-.imgFrame img:hover{
-transform: scale(150%);
-filter: saturate(80%);
+.imgFrame img:hover {
+  transform: scale(150%);
+  filter: saturate(80%);
+}
 
-} 
-
-.imgFrame figcaption{
-
+.imgFrame figcaption {
   color: white;
   background-color: black;
   padding: 0.6rem 0.5rem;
   width: 50%;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 2;
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 /* text on image */
@@ -116,92 +110,76 @@ z-index: 2;
   border: 10px solid transparent;
   color: white;
 }
-h3{
-    font-size: 1.7rem;
-    font-family: "montserrat";
-    border-bottom: 2px solid rgb(202, 195, 195);
-    padding-top: 20px;
-    padding-bottom: 10px;
-
+h3 {
+  font-size: 1.7rem;
+  font-family: "montserrat";
+  border-bottom: 2px solid rgb(202, 195, 195);
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 /* text team */
-.team{
-    font-family: "montserrat";
-    font-size: 1.7rem;
-    font-style: bold;
-    font-weight: 900;
+.team {
+  font-family: "montserrat";
+  font-size: 1.7rem;
+  font-style: bold;
+  font-weight: 900;
 }
-h4{
-    color: grey;
+h4 {
+  color: grey;
 }
-.contact{
-    position: absolute;
-    background-color: rgba(168, 156, 156, 0.979);
-    font-size: 1rem;
-    font-weight: 900;
-    border: 10px solid transparent;
-    color: rgb(5, 5, 5);
-    width: 22.5%;
-    text-align: center;
-   
-
+.contact {
+  position: absolute;
+  background-color: rgba(168, 156, 156, 0.979);
+  font-size: 1rem;
+  font-weight: 900;
+  border: 10px solid transparent;
+  color: rgb(5, 5, 5);
+  width: 22.5%;
+  text-align: center;
 }
 /* contact area */
-#contactForm{
-    padding-top: 7vh;
+#contactForm {
+  padding-top: 7vh;
 }
 
-#contactForm input{
-    width: 100%;
-    padding: .7rem;
-    margin: .5rem;
-    
+#contactForm input {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem;
 }
-#contactForm #send{
-    width: 30%;
-    background-color: black;
-    color: white;
+#contactForm #send {
+  width: 30%;
+  background-color: black;
+  color: white;
 }
-
-
-
-
-
-
 
 /* Format tablette */
 
-@media screen and (max-width:768px) {
-
-
-  .imgFrame{
+@media screen and (max-width: 768px) {
+  .imgFrame {
     width: 45%;
   }
-  #contactForm{
+  #contactForm {
     padding-top: 6.5vh;
   }
-  
-  .imgFrame{
-  border-bottom: 40px solid white;
+
+  .imgFrame {
+    border-bottom: 40px solid white;
   }
-    
-  }
+}
 
 /* Format mobile */
 
-@media screen and (max-width:576px) {
-
-  .imgFrame{
+@media screen and (max-width: 576px) {
+  .imgFrame {
     width: 100%;
   }
 
-  #contactForm{
+  #contactForm {
     padding-top: 6.5vh;
-}
- 
-.imgFrame{
-  border-bottom: 40px solid white;
-}
-  
-}
+  }
 
+  .imgFrame {
+    border-bottom: 40px solid white;
+  }
+}
